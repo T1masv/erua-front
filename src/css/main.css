@@ -1,0 +1,11 @@
+*,body{
+  box-sizing: border-box;
+}
+
+.animation {
+  animation: : mymove 1s infinite;
+}
+@keyframes mymove {
+  0%   {left: 100vw;}
+  100% {left: 0vw;}
+}
